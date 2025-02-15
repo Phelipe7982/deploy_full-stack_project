@@ -1,7 +1,6 @@
 import axios from "axios";
-import "dotenv/config";
 
-// const { NODE_ENV } = process.env;
+// const URL = "http://localhost:3001/api";
 const URL = "https://deploy-full-stack-project.onrender.com/api";
 
 const resposeArtists = await axios.get(`${URL}/artists`);
